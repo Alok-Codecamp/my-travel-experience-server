@@ -7,7 +7,7 @@ app.use(cors());
 app.get('/',(req,res)=>{
     res.send('my-travel-experienc')
 })
-
+ 
 app.listen(port,()=>{
     console.log('my-travel-experience server running')
 })
